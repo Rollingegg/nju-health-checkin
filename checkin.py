@@ -64,7 +64,7 @@ def main():
                          '&'.join([key + '=' + data[key] for key in fields]))
 
     answer = json.loads(result.text)
-    answer['location'] = data['CURR_LOCATION']
+    answer['location'] = data['CURR_LOCATION'][0:5]
     print(answer)
 
     if result.status_code != 200:
