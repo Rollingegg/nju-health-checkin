@@ -1,5 +1,11 @@
 # NJU Health Checkin
 
+## What's New!
+
+> Considering the limit of the [policy of Github Action](https://docs.github.com/en/github/site-policy/github-terms-for-additional-products-and-features#actions), the repository can't be deployed as **daily-checkin-schedule** any more!!! Otherwise your account will be forbidden ever!!! ([The true case](https://blog.suhj.com/1323.html))
+
+As a result, I tried to use [字节跳动轻服务](https://qingfuwu.cn/dashboard) as alternative solution. Deploy your **cloud function** and add **timed task** instead. (Here is `checkin.js`)
+
 ## Usage
 
 ```
